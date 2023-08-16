@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Fiesta</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/css/map.css" />
+</head>
+<body style="border:0;margin:0">
+    <div id="map"></div>
+    <div class="formSection">
+    <form id="form">
+        <input type="text" name="start" class="input" id="start" placeholder="choose starting point">
+        <input type="text" name="end" class="input" id="destination" placeholder="choose destination">
+        <button type="submit" id="directions">Get Directions</button>
+    </form>
+    </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
+  <script src="https://www.mapquestapi.com/sdk/leaflet/v2.2/mq-map.js?key=JGtXxzwkQ8i2VUU01wowQPnFD75VxyDv"></script>
+  <script src="https://www.mapquestapi.com/sdk/leaflet/v2.2/mq-routing.js?key=JGtXxzwkQ8i2VUU01wowQPnFD75VxyDv"></script>
+  <!-- <script src="/family-event-planner/assets/js/main.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+  <script src="./assets/js/map.js"></script>
+</body>
+
+</html>
